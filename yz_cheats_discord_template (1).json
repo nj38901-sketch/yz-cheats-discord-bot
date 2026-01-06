@@ -1,0 +1,71 @@
+{
+  "roles": [
+    {
+      "name": "Owner",
+      "color": "Red",
+      "permissions": ["Administrator"]
+    },
+    {
+      "name": "Admin",
+      "color": "Orange",
+      "permissions": ["ManageChannels", "KickMembers", "BanMembers"]
+    },
+    {
+      "name": "Client",
+      "color": "Green",
+      "permissions": ["Connect", "Speak"]
+    },
+    {
+      "name": "Member",
+      "color": "Blue",
+      "permissions": ["Connect", "Speak"]
+    }
+  ],
+  "categories": [
+    {
+      "name": "ENTRANCE",
+      "channels": [
+        { "name": "WELCOME", "type": "text" },
+        { "name": "GOODBYE", "type": "text" }
+      ]
+    },
+    {
+      "name": "UPDATES",
+      "channels": [
+        { "name": "ANNOUNCEMENT", "type": "text" },
+        { "name": "YT UPDATES", "type": "text" },
+        { "name": "REVIEWS", "type": "text" },
+        { "name": "SCAMER", "type": "text" },
+        { "name": "RULES", "type": "text" }
+      ]
+    },
+    {
+      "name": "PRODUCTS",
+      "channels": [
+        { "name": "EXTERNAL", "type": "text" },
+        { "name": "INTERNAL", "type": "text" },
+        { "name": "SILENTAIM", "type": "text" },
+        { "name": "STREAMER", "type": "text" },
+        { "name": "PAYMENTMETHODS", "type": "text" }
+      ]
+    },
+    {
+      "name": "GENERAL",
+      "channels": [
+        { "name": "CHATS", "type": "text" },
+        { "name": "MEDIA", "type": "text" },
+        { "name": "MEMES", "type": "text" },
+        { "name": "PUBLIC VC1", "type": "voice" },
+        { "name": "PUBLIC VC2", "type": "voice" }
+      ]
+    },
+    {
+      "name": "CLIENT AREA",
+      "channels": [
+        { "name": "CLIENT VC1", "type": "voice" },
+        { "name": "CLIENT VC2", "type": "voice" },
+        { "name": "CLIENT VC3", "type": "voice" }
+      ]
+    }
+  ]
+}

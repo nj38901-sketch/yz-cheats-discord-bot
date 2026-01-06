@@ -1,0 +1,12 @@
+{
+  "name": "yz-cheats-discord-bot",
+  "version": "1.0.0",
+  "description": "YZ CHEATS Discord Server Auto Setup Bot",
+  "main": "import-server-safe.js",
+  "scripts": {
+    "start": "node import-server-safe.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  }
+}
